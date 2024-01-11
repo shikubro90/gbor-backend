@@ -18,11 +18,14 @@ const userSchema = new mongoose.Schema({
         required: true,
         trim: true,
         unique: true
+
     },
     userName: {
         type: String,
         required: true,
         trim: true,
+
+        
         unique:true
     },
     dateOfBirth: {
